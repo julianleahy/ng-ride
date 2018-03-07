@@ -1,4 +1,4 @@
-import { MapService } from './../sevices/map.service';
+import { MapService } from './../services/map.service';
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 

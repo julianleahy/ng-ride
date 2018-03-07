@@ -1,4 +1,4 @@
-import { ActivityService } from './../sevices/activity.service';
+import { ActivityService } from './../services/activity.service';
 import { IActivity } from './../shared/activity.model';
 import { Component, OnInit } from '@angular/core';
 
