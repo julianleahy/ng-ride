@@ -1,3 +1,4 @@
+import { MapService } from './sevices/map.service';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 
@@ -20,7 +21,7 @@ import { appRoutes } from '../route';
     BrowserModule,
     RouterModule.forRoot(appRoutes)
   ],
-  providers: [ActivityService],
+  providers: [ActivityService, MapService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
