@@ -2,7 +2,7 @@
 export interface IActivity {
   id: number;
   name: string;
-  data: Date;
+  date: Date;
   comments?: string;
   distance?: number;
   gpxData: string;
