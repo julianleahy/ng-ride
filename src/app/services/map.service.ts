@@ -26,9 +26,9 @@ export class MapService {
   // add custom style
   plotActivity(id: number) {
     const mapStyle = {
-      'color': '#3949AB',
-      'weight': 5,
-      'opacity': 0.95
+      'color': '#000',
+      'weight': 3,
+      'opacity': 1
     };
 
     const map = L.map('map').setView(defaultCoords, defaultZoom);
@@ -37,9 +37,9 @@ export class MapService {
 
     L.tileLayer('https://api.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
       // tslint:disable-next-line:max-line-length
-      attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+      attribution: '',
       maxZoom: 18,
-      id: 'mapbox.dark',
+      id: 'mapbox.run-bike-hike',
       accessToken: apiToken
     }).addTo(map);
 

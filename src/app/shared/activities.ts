@@ -24,13 +24,13 @@ export const SAVED_ACTIVITIES: IActivity[] = [
     'name': 'Mt. Victoria',
     'date': new Date('01/21/2018'),
     'distance': 5.8,
-    'comments': 'Great run to the Botanical Gardens!',
+    'comments': 'Great ride down!',
     'gpxData': '../../assets/gpx/3.gpx'
 
   },
   {
     'id': 4,
-    'name': 'Ride to the coast',
+    'name': 'Coastal Ride',
     'date': new Date('01/26/2018'),
     'distance': 15.6,
     'comments': 'Beautiful day for the road bike',
