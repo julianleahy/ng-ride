@@ -1,9 +1,30 @@
-@import url('https://fonts.googleapis.com/css?family=Fjalla+One');
-
 .row-runs{
+  position: relative;
   background-color: rgba(255,255,255,0.94);
   padding: 10px 32px;
 }
+
+.wheel {
+  width: 50px;
+  position: absolute;
+  top:5px;
+  right:5px;
+  animation: rotate 30s linear infinite;
+  
+}
+
+
+
+@keyframes rotate {
+from {
+  transform: rotate(0deg);
+}
+to { 
+  transform: rotate(360deg);
+}
+}
+
+
 
 td{
   font-size: 1.4em;
