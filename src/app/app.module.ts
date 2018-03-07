@@ -9,13 +9,15 @@ import { MapComponent } from './map/map.component';
 import { ActivityService } from './services/activity.service';
 import { RouterModule } from '@angular/router';
 import { appRoutes } from '../route';
+import { GitlinkComponent } from './gitlink/gitlink.component';
 
 
 @NgModule({
   declarations: [
     AppComponent,
     ActivityListComponent,
-    MapComponent
+    MapComponent,
+    GitlinkComponent
   ],
   imports: [
     BrowserModule,
